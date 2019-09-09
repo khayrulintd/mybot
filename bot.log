@@ -1,0 +1,47 @@
+root - INFO - Вызван /старт
+root - INFO - Вызван /старт
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:/projects/mybot/bot.py", line 16, in greet_user
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+root - INFO - Вызван /старт
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:/projects/mybot/bot.py", line 16, in greet_user
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+root - INFO - Вызван /старт
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:/projects/mybot/bot.py", line 16, in greet_user
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+root - INFO - talk_to_me
+root - INFO - talk_to_me
+root - INFO - talk_to_me
+root - INFO - Вызван /старт
+root - INFO - Вызван /старт
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Program Files\Python\Python373\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "c:/projects/mybot/bot.py", line 16, in greet_user
+    update.message.reply_text(text)
+NameError: name 'text' is not defined
+root - INFO - talk_to_me
+root - INFO - talk_to_me
